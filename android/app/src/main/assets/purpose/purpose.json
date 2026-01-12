@@ -1,0 +1,7 @@
+{
+  "purpose": "Offline-first personal knowledge management system for Android",
+  "vision": "Enable users to capture, process, and search documents without internet dependency",
+  "offlineRule": true,
+  "platform": "Android",
+  "curator": "Homeonix"
+}

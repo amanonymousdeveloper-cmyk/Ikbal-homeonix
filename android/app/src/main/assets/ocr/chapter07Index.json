@@ -1,0 +1,14 @@
+{
+  "chapter": "Ch-07",
+  "batches": [
+    {
+      "batch": "07-A",
+      "files": [
+        "app/src/main/java/com/homeonix/ocr/OcrInvoker.kt",
+        "app/src/main/assets/ocr/ocrContract.json",
+        "app/src/main/assets/ocr/chapter07Index.json"
+      ],
+      "dependsOn": []
+    }
+  ]
+}

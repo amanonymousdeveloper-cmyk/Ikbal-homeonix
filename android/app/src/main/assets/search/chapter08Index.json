@@ -1,0 +1,18 @@
+{
+  "chapter": "Ch-08",
+  "batches": [
+    {
+      "batch": "08-A",
+      "files": [
+        "app/src/main/assets/app/js/vectorLoader.js",
+        "app/src/main/assets/db/schema/searchIndexSchema.json"
+      ]
+    },
+    {
+      "batch": "08-B",
+      "files": [
+        "app/src/main/assets/app/js/similarityEngine.js"
+      ]
+    }
+  ]
+}

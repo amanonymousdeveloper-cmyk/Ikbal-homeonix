@@ -1,0 +1,12 @@
+{
+  "tableName": "vector_store",
+  "tableVersion": 1,
+  "arrayType": "Float32Array",
+  "columns": [
+    {"name":"id","type":"INTEGER","indexed":true,"indexType":"BTREE"},
+    {"name":"vector","type":"BLOB","indexed":false,"indexType":""},
+    {"name":"dim","type":"INTEGER","indexed":false,"indexType":""},
+    {"name":"sourceBatch","type":"TEXT","indexed":false,"indexType":""}
+  ],
+  "onFail": "throw Error(\"TECH_GUARD_FAIL\")"
+}

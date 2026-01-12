@@ -1,0 +1,14 @@
+{
+  "chapter": "06",
+  "batches": [
+    {
+      "batch": "06-A",
+      "files": [
+        "app/src/main/java/com/homeonix/ocr/OcrEngine.kt",
+        "app/src/main/assets/ocr/ocrContract.json"
+      ],
+      "dependsOn": null,
+      "onFail": "throw Error(\"OCR_PIPE_FAIL\")"
+    }
+  ]
+}

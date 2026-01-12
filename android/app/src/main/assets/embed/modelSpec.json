@@ -1,0 +1,8 @@
+{
+  "modelName": "Homeonix-VectorModel",
+  "version": "1.0",
+  "arrayType": "Float32Array",
+  "dim": 512,
+  "quantization": "none",
+  "checksum": "d2c7f6e8a1b3c9d4e5f7a8b2c6d9e3f1a4b7c8d6e2f5a9b1c3d4e8f6a7b5c9d2"
+}

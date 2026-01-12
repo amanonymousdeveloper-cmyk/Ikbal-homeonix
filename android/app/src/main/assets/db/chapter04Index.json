@@ -1,0 +1,11 @@
+{
+  "chapter": "Ch-04",
+  "batch": "04-C",
+  "files": [
+    "app/src/main/java/com/homeonix/data/db/AppDatabase.kt",
+    "app/src/main/assets/db/chapter04Index.json"
+  ],
+  "storage": "local_sqlite_room",
+  "runtimeInternetAllowed": false,
+  "errorOnFail": "TECH_GUARD_FAIL"
+}

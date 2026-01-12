@@ -1,0 +1,25 @@
+{
+  "language": "BN",
+  "version": "1.0",
+  "offlineOnly": true,
+  "fontFamily": "Kalpurush",
+  "screenReaderSupport": true,
+  "uiTexts": [
+    "রেমেডি খুঁজুন",
+    "রিডার",
+    "প্রমাণে লাফ দিন",
+    "গ্রহণ",
+    "প্রত্যাখ্যান"
+  ],
+  "ariaLabels": [
+    "button_remedy_khojun",
+    "reader_module",
+    "praman_jump"
+  ],
+  "contentDescriptions": [
+    "রেমেডি সার্চ",
+    "প্রমাণ টেক্সট পড়া",
+    "প্রমাণে স্ক্রল"
+  ],
+  "immutableRequired": true
+}

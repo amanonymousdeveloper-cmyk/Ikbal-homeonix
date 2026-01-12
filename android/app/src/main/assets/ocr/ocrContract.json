@@ -1,0 +1,33 @@
+{
+  "batch": "06-D",
+  "file": "ocrContract.json",
+  "inputTypes": ["image","pdf_page_image"],
+  "outputType": "string",
+  "cleanedOutputFormat": {
+    "type": "String",
+    "encoding": "UTF-8",
+    "normalized": true,
+    "trimSpaces": true,
+    "noJunkSymbols": true
+  },
+  "storageHandoffSpec": {
+    "target": ["SQLite","Room","JSON_Index"],
+    "vectorAllowed": false,
+    "seedInsert": false,
+    "checksumRequired": true,
+    "versioningRequired": true
+  },
+  "throws": [
+    "OCR_RECEIVE_EMPTY",
+    "OCR_PROCESS_FAIL",
+    "OCR_BRIDGE_DISPATCH_FAIL",
+    "OCR_RECEIVE_EMPTY",
+    "OCR_PROCESS_FAIL",
+    "OCR_BRIDGE_DISPATCH_FAIL"
+  ],
+  "errorBehavior": {
+    "emptyText": "throw Error(\"OCR_RECEIVE_EMPTY\")",
+    "processCrash": "throw Error(\"OCR_PROCESS_FAIL\")",
+    "bridgeDispatchFail": "throw Error(\"OCR_BRIDGE_DISPATCH_FAIL\")"
+  }
+}

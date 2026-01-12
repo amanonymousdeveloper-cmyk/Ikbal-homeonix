@@ -1,0 +1,15 @@
+{
+  "batch": "16-B",
+  "version": "1.0",
+  "keystorePath": "projectRoot/keystore/homeonix.keystore",
+  "keystoreAlias": "homeonix",
+  "outputApkPath": "android/app/build/outputs/apk/release/app-release.apk",
+  "signingTool": "apksigner",
+  "minSdk": 21,
+  "v1SigningEnabled": false,
+  "v2SigningEnabled": true,
+  "v3SigningEnabled": true,
+  "verifyAfterSign": true,
+  "offlineOnly": true,
+  "immutableRequired": true
+}

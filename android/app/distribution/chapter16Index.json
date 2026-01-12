@@ -1,0 +1,15 @@
+{
+  "chapter": "Ch-16",
+  "batch": "16-C",
+  "version": "1.0",
+  "offlineOnly": true,
+  "immutableRequired": true,
+  "files": [
+    "android/settings.gradle",
+    "android/gradle.properties",
+    "android/gradle/wrapper/gradle-wrapper.properties",
+    "android/app/build.gradle",
+    "android/app/signing/apkSignerConfig.json",
+    "projectRoot/keystore/homeonix.keystore"
+  ]
+}

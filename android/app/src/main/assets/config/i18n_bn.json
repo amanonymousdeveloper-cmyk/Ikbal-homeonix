@@ -1,0 +1,19 @@
+// File: android/app/src/main/assets/config/i18n_bn.json
+{
+  "lang": "BN",
+  "uiKeys": {
+    "findRemedy": "রেমেডি খুঁজুন",
+    "reader": "রিডার",
+    "jumpToEvidence": "প্রমাণে লাফ দিন",
+    "accept": "গ্রহণ",
+    "decline": "প্রত্যাখ্যান"
+  },
+  "fontFamily": "Kalpurush",
+  "ariaLabels": {
+    "findRemedy": "button_remedy_khojun",
+    "reader": "reader_module",
+    "jumpToEvidence": "praman_jump"
+  },
+  "offlineOnly": true,
+  "checksum": "BN_STATIC_1"
+}

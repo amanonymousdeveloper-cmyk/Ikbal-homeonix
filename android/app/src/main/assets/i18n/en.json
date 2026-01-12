@@ -1,0 +1,25 @@
+{
+  "language": "EN",
+  "version": "1.0",
+  "offlineOnly": true,
+  "fontFamily": "Lato",
+  "screenReaderSupport": true,
+  "uiTexts": [
+    "Find Remedy",
+    "Reader",
+    "Jump to Evidence",
+    "Accept",
+    "Decline"
+  ],
+  "ariaLabels": [
+    "button_find_remedy",
+    "reader_module",
+    "jump_to_evidence"
+  ],
+  "contentDescriptions": [
+    "Search for remedy",
+    "Read evidence text",
+    "Scroll to evidence"
+  ],
+  "immutableRequired": true
+}

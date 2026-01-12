@@ -1,0 +1,13 @@
+// File: android/app/src/main/assets/architecture/chapter18Index.json
+{
+  "batch": "18-B",
+  "files": [
+    "android/app/src/main/assets/config/i18n_en.json",
+    "android/app/src/main/assets/config/i18n_bn.json"
+  ],
+  "contracts": [
+    "IMMUTABLE_JSON",
+    "OFFLINE_ONLY",
+    "NO_MUTATION"
+  ]
+}

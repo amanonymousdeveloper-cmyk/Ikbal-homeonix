@@ -1,0 +1,10 @@
+{
+  "batch": "15-C",
+  "version": "1.0",
+  "ariaFields": ["ariaLabel", "contentDescription", "role", "tabIndex"],
+  "contentDescriptionRequired": true,
+  "offlineOnly": true,
+  "immutableRequired": true,
+  "allowedInputModules": ["UIRenderer", "ReaderRenderer"],
+  "allowedContainerHosts": ["WebView", "Cordova", "Capacitor"]
+}

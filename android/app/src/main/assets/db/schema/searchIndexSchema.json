@@ -1,0 +1,9 @@
+{
+  "tableName": "search_vector_index",
+  "columns": [
+    { "name": "id", "type": "INTEGER", "indexed": true },
+    { "name": "refType", "type": "TEXT", "indexed": true },
+    { "name": "refId", "type": "INTEGER", "indexed": true },
+    { "name": "vectorBlob", "type": "BLOB", "indexed": false }
+  ]
+}

@@ -1,0 +1,19 @@
+// File: android/app/src/main/assets/config/i18n_en.json
+{
+  "lang": "EN",
+  "uiKeys": {
+    "findRemedy": "Find Remedy",
+    "reader": "Reader",
+    "jumpToEvidence": "Jump to Evidence",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "fontFamily": "Lato",
+  "ariaLabels": {
+    "findRemedy": "button_find_remedy",
+    "reader": "reader_module",
+    "jumpToEvidence": "jump_to_evidence"
+  },
+  "offlineOnly": true,
+  "checksum": "EN_STATIC_1"
+}

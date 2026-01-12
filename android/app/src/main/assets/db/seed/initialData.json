@@ -1,0 +1,37 @@
+{
+  "chapter": "Ch-07",
+  "batch": "07-F",
+  "tables": [
+    {
+      "tableName": "rubric",
+      "rows": [
+        { "id": 1, "code": "MIND_001", "text": "অপমান সহ্য করতে না পারা", "category": "Mind" },
+        { "id": 2, "code": "VERT_003", "text": "হঠাৎ ভয় পেলে মাথা ঘোরা", "category": "General" }
+      ]
+    },
+    {
+      "tableName": "remedy",
+      "rows": [
+        { "id": 1, "name": "Aconite", "essence": "হঠাৎ আতঙ্ক", "miasm": "Acute" },
+        { "id": 2, "name": "Arsenicum Album", "essence": "অস্থিরতা ও ভয়", "miasm": "Psora" }
+      ]
+    },
+    {
+      "tableName": "disease_meaning",
+      "rows": [
+        { "id": 1, "diseaseName": "Schizophrenia", "meaning": "মনের বিভ্রান্তি ও বাস্তবতা থেকে বিচ্ছিন্নতা" },
+        { "id": 2, "diseaseName": "Asthma", "meaning": "শ্বাসকষ্ট ও বুকের চাপ অনুভব" }
+      ]
+    },
+    {
+      "tableName": "vector",
+      "rows": [
+        { "id": 1, "refType": "RUBRIC", "refId": 1, "vectorBlob": "" },
+        { "id": 2, "refType": "REMEDY", "refId": 2, "vectorBlob": "" },
+        { "id": 3, "refType": "DISEASE", "refId": 2, "vectorBlob": "" }
+      ]
+    }
+  ],
+  "handoffContract": "JS_RESULT_BRIDGE_IMMUTABLE",
+  "errorOnFail": "throw Error(\"OCR_PIPE_FAIL\")"
+}

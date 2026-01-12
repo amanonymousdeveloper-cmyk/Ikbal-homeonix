@@ -1,0 +1,54 @@
+{
+  "chapter": "05",
+  "chapterName": "Embedding Model Integration (On-Device)",
+  "purpose": "Embedding model load + vector generation + storage bridge contract",
+  "networkRule": "offline-only",
+  "batches": [
+    {
+      "batch": "05-A",
+      "goal": "Model Spec & Loader",
+      "files": [
+        "app/src/main/assets/embed/modelSpec.json",
+        "app/src/main/assets/app/js/modelLoader.js"
+      ],
+      "dependsOn": null
+    },
+    {
+      "batch": "05-B",
+      "goal": "Vector Generation & Validation",
+      "files": [
+        "app/src/main/assets/app/js/vectorGen.js",
+        "app/src/main/assets/app/js/vectorValidator.js"
+      ],
+      "dependsOn": "05-A"
+    },
+    {
+      "batch": "05-C",
+      "goal": "Storage Schema Spec",
+      "files": [
+        "app/src/main/assets/db/schema/vectorStoreSchema.json"
+      ],
+      "dependsOn": null
+    },
+    {
+      "batch": "05-D",
+      "goal": "Native Bridge Contract",
+      "files": [
+        "app/src/main/assets/embed/chapter05Index.json"
+      ],
+      "dependsOn": "04"
+    },
+    {
+      "batch": "05-E",
+      "goal": "AI Editor Index",
+      "files": [
+        "app/src/main/assets/embed/chapter05Index.json"
+      ],
+      "dependsOn": "05-B 05-C 05-D"
+    }
+  ],
+  "errorBehavior": "throw Error(\"TECH_GUARD_FAIL\")",
+  "moduleBoundary": "JS calls bridge API only, never owns DB/OCR instance",
+  "vectorArray": "Float32Array",
+  "storageEngine": "SQLite via Room Bridge"
+}

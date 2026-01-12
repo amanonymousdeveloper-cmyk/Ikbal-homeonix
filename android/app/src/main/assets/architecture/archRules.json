@@ -1,0 +1,7 @@
+{
+  "containerHost": "WebView",
+  "storageEngine": "Room",
+  "immutableIO": true,
+  "runtimeInternetAllowed": false,
+  "failStopError": "TECH_GUARD_FAIL"
+}

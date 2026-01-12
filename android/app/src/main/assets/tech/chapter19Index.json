@@ -1,0 +1,15 @@
+// File: app/src/main/assets/tech/chapter19Index.json
+
+module.exports = Object.freeze({
+  batch: "19-B",
+  files: [
+    "gradle/wrapper/gradle-wrapper.jar",
+    "gradle/wrapper/gradle-wrapper.properties",
+    "gradlew",
+    "gradle.properties",
+    "chapter19Index.json"
+  ],
+  purpose: "LOCAL_BUILD_FLAGS_AND_INDEX",
+  export: "ANDROID_OWNS_GRADLE_WRAPPER",
+  onFail: "WRAPPER_OR_PROPERTIES_MISSING"
+});
